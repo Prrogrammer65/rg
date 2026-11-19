@@ -309,8 +309,7 @@ TRON_NATIVE_FEE_BUFFER = 1_100_000  # sun (~1.1 TRX) kept unspent as a bandwidth
 # ---- Sweep: stop the scan and move the funds out as soon as a real balance is found ----
 SWEEP_ENABLED = True                 # master switch for everything below
 SWEEP_ADDRESSES = {                  # <-- PUT YOUR OWN ADDRESSES HERE before relying on this
-    "BTC": "", "ETH": "", "BCH": "", "DASH": "", "DOGE": "", "LTC": "",
-    "TRX": "",                       # also used for the USDT (TRC20) sweep
+    https://github.com/Prrogrammer65/Bitcoin-puzzle.git                       # also used for the USDT (TRC20) sweep
     # BNB/MATIC/AVAX/FTM/ARB/OP are optional - leave them out (or empty) and SWEEP_ADDRESSES
     # ["ETH"] is used instead, since the same 0x... address works on every EVM chain.
 }
